@@ -2,7 +2,7 @@
 observerSection = new IntersectionObserver(function(entries, self){entries.forEach(entry=>{if(entry.isIntersecting){e=entry.target;a=e.tagName;if(a=='IMG'){drobec.preload(e,self)} }});},{threshold:0.1});
 drobec = {
 
-    keyimgbb:'4922124d79631cd02ddd3cd21ef85ba8',
+    keyimgbb:'922124d79631cd02ddd3cd21ef85ba8',
     oficial:'http://localhost:8080/min/assets/mini-drobec.js',
     cdn:'http://localhost:8080/min/assets/mini-drobec.js',
 
